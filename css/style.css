@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main1{
+    width: 15%;
+    height: 1200px;
+    background-color: rgba(0, 0, 0, 0.928);
+    float:left;
+    border-right: solid 1px rgb(59, 58, 58);
+    padding-left: 40px;
+    font-size: 15px;
+
+}
+.stick{
+    position: sticky;
+    top: 0;
+}
+.main2{
+    width: 85%;
+    height: 1200px;
+    background-color: rgba(0, 0, 0, 0.928);
+    float:right;
+    padding-right: 50px;
+    padding-left: 50px;
+   
+}
+.logo{
+    width: 100%;
+    height: 120px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.newfeed{
+    width: 100%;
+    height: 190px;
+    
+}
+.new{
+    width: 100%;
+    height: 190px;
+    
+    color: gray;
+    list-style: none;
+}
+.new li{
+    margin-top: 15px;
+    
+}
+.new li:hover i{
+    color: red;
+}
+.new li:hover{
+   color: white;
+   cursor: pointer;
+}
+span{
+    color: red;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.line{
+    width: 70%;
+    border-bottom: solid 6px rgba(0, 0, 0, 0.128);
+    border-radius: 10px;
+}
+.follow{
+    list-style: none;
+    color: gray;
+    margin-top: 25px;
+}
+.follow li{
+    margin-top: 15px;
+}
+.follow li:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-signal{
+    font-size: 10px;
+    margin-left: 60px;
+    color: green;
+}
+.load{
+    margin-top: 40px;
+    color: gray;
+}
+.load:hover{
+    color: white;
+}
+.fa-circle-chevron-down{
+    color: red;
+}
+.line2{
+    margin-top: 50px;
+    width: 70%;
+    border-bottom: solid 6px rgba(0, 0, 0, 0.128);
+    border-radius: 10px;
+}
+.logout{
+    color: gray;
+    margin-top: 30px;
+}
+.fa-right-from-bracket{
+    color: white;
+}
+.logout:hover{
+    color: white;
+    cursor: pointer;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.minimenu1{
+    width: 40%;
+    height: 100px;
+  
+    padding-top: 35px;
+}
+.minimenu2{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding-top: 35px;
+}
+.icon1{
+   display: flex;
+    padding-top: 10px;
+}
+.pf{
+    margin-left: 5px;
+    float: right;
+    
+}
+.icon1 i{
+    font-size: 22px;
+    margin-right: 20px;
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+.icon1 i:hover{
+    font-size: 24px;
+    
+}
+.icon2 i{
+    font-size: 18px;
+    margin-right: 30px;
+    color: rgba(128, 128, 128, 0.807);
+    transition: ease-in-out 0.2s;
+    margin-top: 6px;
+}
+.bg1{
+    width: 100%;
+    height: 350px;
+    border-radius: 25px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+}
+.pic1{
+    width: 50%;
+    height: 350px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 50px;
+    color: white;
+}
+.title1{
+    font-size: 40px;
+    color: aliceblue;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title1 span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa-star{
+    color: yellow;
+}
+.rate{
+    font-size: 13px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+}
+.flag{
+   float: left;
+    margin-top: 27px;
+   margin-right: 5px;
+}
+.pic2{
+    width: 50%;
+    height: 350px;
+    float: right;
+    text-align: right;
+    padding-right: 40px;
+    position: relative;
+    
+}
+.watch{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0.768);
+    margin-top:100px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    float: left;
+    margin-left: -105px;
+    margin-right: 30px;
+}
+.watch:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.more{
+    margin-top:108px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+.more img{
+    
+    margin-left: -13px;
+}
+.slide{
+    width: 250px;
+    height: 80px;
+  
+    position: absolute;
+    top: 350px;
+    left: 1050px;
+}
+
+.tinyline{
+width: 25px;
+height: 13px;
+background-color: darkred;
+border-radius: 25px;
+position: absolute;
+left: 100px;
+top: 8px;
+}
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+.section-control{
+    width: calc((100% - 60px) / 4);
+}
+.main-pf{
+    width: 	100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 100%;
+    height: 140px;
+    background-color: rgba(128, 128, 128, 0.071);
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.box1:hover{
+    background-color: rgba(128, 128, 128, 0.176);
+}
+.tinypic1{
+    width: 23%;
+    height: 50px;
+    background-image: url(../img/Screenshot\ 2023-02-28\ 110617.png);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.tinypf1 img{
+    margin-left: -13px;
+}
+.tinypf1{
+    
+   width: 50px;
+   height: 50px;
+   left: 210px;
+   margin-top: 30px;
+
+}
+.minit1{
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about1{
+    color: gray;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box2{
+    width: 100%;
+    height: 140px;
+    background-color: rgba(128, 128, 128, 0.071);
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.box2:hover{
+    background-color: rgba(128, 128, 128, 0.176);
+}
+.tinypic2{
+    width: 23%;
+    height: 50px;
+    background-image: url(../img/Screenshot\ 2023-02-28\ 110430.png);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.tinypf2 img{
+    margin-left: -13px;
+}
+.tinypf2{
+   width: 50px;
+   height: 50px;
+   left: 210px;
+    margin-top: 30px;
+
+}
+.minit2{
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about2{
+    color: gray;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box3{
+    width: 100%;
+    height: 140px;
+    background-color: rgba(128, 128, 128, 0.071);
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.box3:hover{
+    background-color: rgba(128, 128, 128, 0.176);
+}
+.tinypic3{
+    width: 23%;
+    height: 50px;
+    background-image: url(../img/iron-man-3-poster-1179029.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.tinypf3 img{
+    margin-left: -13px;
+}
+.tinypf3{
+    
+   width: 50px;
+   height: 50px;
+   left: 210px;
+   margin-top: 30px;
+
+}
+.minit3{
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about3{
+    color: gray;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box4{
+    width: 100%;
+    height: 140px;
+    background-color: rgba(128, 128, 128, 0.071);
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.box4:hover{
+    background-color: rgba(128, 128, 128, 0.176);
+}
+.tinypic4{
+    width: 23%;
+    height: 50px;
+    background-image: url(../img/image001.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.tinypf4 img{
+    margin-left: -13px;
+}
+.tinypf4{
+   
+   width: 50px;
+   height: 50px;
+   left: 210px;
+   margin-top: 30px;
+
+}
+.minit4{
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about4{
+    color: gray;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tinyline1{
+width: 25px;
+height: 13px;
+background-color: darkred;
+border-radius: 25px;
+position: relative;
+left: 280px;
+top: -16px;
+}
+.Movie{
+width: 100%;
+list-style: none;
+width: 100%;
+margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.box{
+    width: calc((100% - 100px) / 6);
+    height: 320px;
+}
+.movie1{
+width: 100%;
+height: 100%;
+
+background-image: url(../img/MV5BNzg2NWY4MTMtZDQwNS00Y2JhLTkyMDYtNjIxYTI3ZDQwZWUwXkEyXkFqcGdeQXVyMjIxMzU3Njc@._V1_FMjpg_UX1000_.jpg);
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+margin-right: 20px;
+text-align: center;
+padding-top: 130px;
+padding-left: 20px;
+color: aliceblue;
+
+}
+.movie1:hover{
+border: solid 2px aliceblue;
+cursor: pointer;
+background-image: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)) ,url(../img/MV5BNzg2NWY4MTMtZDQwNS00Y2JhLTkyMDYtNjIxYTI3ZDQwZWUwXkEyXkFqcGdeQXVyMjIxMzU3Njc@._V1_FMjpg_UX1000_.jpg);
+
+}
+.play1 i{
+font-size: 40px;
+opacity: 0;
+}
+
+.movie1:hover .play1 i{
+opacity: 1;
+}
+.movie2{
+width: 100%;
+height: 100%;
+background-image: url(../img/alita.png);
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+margin-right: 20px;
+text-align: center;
+padding-top: 130px;
+padding-left: 20px;
+color: aliceblue;
+}
+.movie2:hover{
+border: solid 3px aliceblue;
+cursor: pointer;
+background-image: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)) ,url(../img/alita.png);
+}
+.play2 i{
+font-size: 40px;
+opacity: 0;
+}
+.movie2:hover .play2 i{
+opacity: 1;
+}
+.movie3{
+width: 100%;
+height: 100%;
+background-image: url(../img/spider-mannowayhome_lob_crd_03.jpg);
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+margin-right: 20px;
+text-align: center;
+padding-top: 130px;
+padding-left: 20px;
+color: aliceblue;
+}
+.movie3:hover{
+border: solid 3px aliceblue;
+cursor: pointer;
+background-image: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)) ,url(../img/spider-mannowayhome_lob_crd_03.jpg);
+}
+.play3 i{
+font-size: 40px;
+opacity: 0;
+}
+.movie3:hover .play3 i{
+opacity: 1;
+}
+.movie4{
+width: 100%;
+height: 100%;
+background-image: url(../img/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg);
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+margin-right: 20px;
+text-align: center;
+padding-top: 130px;
+padding-left: 20px;
+color: aliceblue;
+}
+.movie4:hover{
+border: solid 3px aliceblue;
+cursor: pointer;
+background-image: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)) ,url(../img/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg);
+}
+.play4 i{
+font-size: 40px;
+opacity: 0;
+}
+.movie4:hover .play4 i{
+opacity: 1;
+}
+.movie5{
+width: 100%;
+height: 100%;
+background-image: url(../img/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg);
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+margin-right: 20px;
+text-align: center;
+padding-top: 130px;
+padding-left: 20px;
+color: aliceblue;
+}
+.movie5:hover{
+border: solid 3px aliceblue;
+cursor: pointer;
+background-image: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)) ,url(../img/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg);
+}
+.play5 i{
+font-size: 40px;
+opacity: 0;
+}
+.movie5:hover .play5 i{
+opacity: 1;
+}
+.movie6{
+   
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/spider-man-far-from-home-global-box-office-tom-holland-starrer-inches-closer-to-usd-700-million.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 130px;
+    padding-left: 20px;
+    color: aliceblue;
+   
+    }
+    .movie6:hover{
+    border: solid 3px aliceblue;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)) ,url(../img/spider-man-far-from-home-global-box-office-tom-holland-starrer-inches-closer-to-usd-700-million.jpg);
+    }
+    .play6 i{
+    font-size: 40px;
+    opacity: 0;
+    }
+    .movie6:hover .play6 i{
+    opacity: 1;
+    }
+.play1 i:hover,.play2 i:hover,.play3 i:hover,.play4 i:hover,.play5 i:hover {
+color: darkred;
+}
+.Movie a{
+color: red;
+}
+a{
+text-decoration: none;
+}
